@@ -16174,3 +16174,6 @@ ccxt.base.errors.NetworkError: binance GET https://api.binance.com/api/v3/exchan
 2022-11-28 19:22:11,142 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.10', state='RUNNING'
 2022-11-28 19:23:11,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.10', state='RUNNING'
 2022-11-28 19:24:11,271 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.10', state='RUNNING'
+2022-11-28 19:25:16,018 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.10', state='RUNNING'
+2022-11-28 19:25:21,085 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 6 pairs: ['AVAX/USDT', 'FTM/USDT', 'SOL/USDT', 'UNI/USDT', 'MINA/USDT', 'SUSHI/USDT']
+2022-11-28 19:26:16,083 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2022.10', state='RUNNING'

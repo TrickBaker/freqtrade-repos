@@ -1,0 +1,29 @@
+{
+  "strategy_name": "DevilStra",
+  "params": {
+    "roi": {
+      "0": 0.574,
+      "1757": 0.158,
+      "3804": 0.089,
+      "6585": 0
+    },
+    "stoploss": {
+      "stoploss": -0.28
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_spell": "Zi,Cu,Cu,Zi,Cu,Pa"
+    },
+    "sell": {
+      "sell_spell": "Ra,Pa,La,De,La,Pa"
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-11-27 04:37:56.971581+00:00"
+}

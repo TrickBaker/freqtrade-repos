@@ -1,0 +1,25 @@
+{
+  "strategy_name": "Simple",
+  "params": {
+    "buy": {},
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.373,
+      "346": 0.16899999999999998,
+      "863": 0.046,
+      "1661": 0
+    },
+    "stoploss": {
+      "stoploss": -0.214
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.072,
+      "trailing_stop_positive_offset": 0.097,
+      "trailing_only_offset_is_reached": false
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-11-26 11:14:25.290832+00:00"
+}

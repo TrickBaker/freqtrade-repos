@@ -1,0 +1,118 @@
+
+{
+    "max_open_trades": 3,
+    "stake_currency": "USDT",
+    "stake_amount": 900,
+    "dry_run_wallet": 1030,
+    "tradable_balance_ratio": 0.99,
+    "fiat_display_currency": "USD",
+    "dry_run": false,
+    "cancel_open_orders_on_exit": false,
+    "trading_mode": "spot",
+    "margin_mode": "",
+    "unfilledtimeout": {
+        "entry": 10,
+        "exit": 10,
+        "exit_timeout_count": 0,
+        "unit": "minutes"
+    },
+    "entry_pricing": {
+        "price_side": "same",
+        "use_order_book": true,
+        "order_book_top": 1,
+        "price_last_balance": 0.0,
+        "check_depth_of_market": {
+            "enabled": false,
+            "bids_to_ask_delta": 1
+        }
+    },
+    "exit_pricing":{
+        "price_side": "same",
+        "use_order_book": true,
+        "order_book_top": 1
+    },
+    "exchange": {
+        "name": "binance",
+        "key": "yW1D0SBTMzRRmqQOkTB2YMLl2w4udwma200JF3LUsI99LmCI5hSZrd2xgK7wfJiU",
+        "secret": "PABT07MYJg3aNh61AvMuT7PI7eOBmghPq6jTKUVbXl2WKFVWNkTqCRRe7tHGwEBe",
+        "ccxt_config": {},
+        "ccxt_async_config": {},
+        "pair_whitelist": ["AVAX/USDT", "FTM/USDT", "SOL/USDT", "UNI/USDT", "MINA/USDT", "SUSHI/USDT"],
+        "pair_blacklist": [
+            "BNB/.*"
+        ]
+    },
+    "pairlists": [
+        {
+            "method": "StaticPairList",
+            "number_assets": 20,
+            "sort_key": "quoteVolume",
+            "min_value": 0,
+            "refresh_period": 1800
+        }
+    ],
+    "edge": {
+        "enabled": false,
+        "process_throttle_secs": 3600,
+        "calculate_since_number_of_days": 7,
+        "allowed_risk": 0.01,
+        "stoploss_range_min": -0.01,
+        "stoploss_range_max": -0.1,
+        "stoploss_range_step": -0.01,
+        "minimum_winrate": 0.60,
+        "minimum_expectancy": 0.20,
+        "min_trade_number": 10,
+        "max_trade_duration_minute": 1440,
+        "remove_pumps": false
+    },
+    "telegram": {
+        "enabled": true,
+        "token": "5857919786:AAFRTqgQ0Hg2F8GkUiz5FJEuDWBWlj3_i-Q",
+        "chat_id": "5746654817",
+        "allow_custom_messages": true,
+        "notification_settings": {
+            "status": "silent",
+            "warning": "on",
+            "startup": "off",
+            "entry": "silent",
+            "entry_fill": "on",
+            "entry_cancel": "silent",
+            "exit": {
+                "roi": "silent",
+                "emergency_exit": "on",
+                "force_exit": "on",
+                "exit_signal": "silent",
+                "trailing_stop_loss": "on",
+                "stop_loss": "on",
+                "stoploss_on_exchange": "on",
+                "custom_exit": "silent",
+                "partial_exit": "on"
+            },
+            "exit_cancel": "on",
+            "exit_fill": "off",
+            "protection_trigger": "off",
+            "protection_trigger_global": "on",
+            "strategy_msg": "off",
+            "show_candle": "off"
+        },
+        "reload": true,
+        "balance_dust_level": 0.01
+    },
+    "api_server": {
+        "enabled": true,
+        "listen_ip_address": "0.0.0.0",
+        "listen_port": 8080,
+        "verbosity": "error",
+        "enable_openapi": false,
+        "jwt_secret_key": "e81ec4333beae2dfda8b98514162bb372f8e244cc03186963e5735938c9fceb9",
+        "CORS_origins": [],
+        "username": "freqtrader",
+        "password": "123456"
+    },
+    "bot_name": "freqtrade",
+    "initial_state": "running",
+    "force_entry_enable": false,
+    "internals": {
+        "process_throttle_secs": 5
+    }
+}
